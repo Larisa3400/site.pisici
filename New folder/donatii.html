@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Susține viața în sanctuar</title>
+  
+  <!-- Font pentru un aspect plăcut -->
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  
+  <!-- Stiluri CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Dela Gothic One', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .site-title {
+      font-family: 'Dela Gothic One', cursive;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    /* Navigare */
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ff6f61;
+      color: #fff;
+    }
+
+    /* Butonul de „Donează” */
+    #donateBtn {
+      background-color: #ff6f61;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 10px;
+      transition: background-color 0.3s;
+    }
+
+    #donateBtn:hover {
+      background-color: #ff998e;
+    }
+
+    /* Secțiunea principală */
+    .donate-section {
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #fff3f3, #ffe5e5);
+      border-radius: 8px;
+      max-width: 1200px;
+      margin: 40px auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Titlu */
+    .donate-section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    /* Introducere */
+    .section-intro {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    /* Grilă pentru card-urile de promovare */
+    .donate-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    /* Card-urile de promovare */
+    .donate-box {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+    }
+
+    /* Titlurile din card-uri */
+    .donate-box h3 {
+      margin-top: 0;
+      color: #ff6f61;
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+
+    /* Paragrafe din card-uri */
+    .donate-box p {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    /* Nota de final */
+    .donate-note {
+      margin-top: 30px;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    /* Stil pentru email */
+    .donate-note em {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="branding">
+    <img src="imagini/cat_sanctuary_logo.png" alt="Logo Sanctuar" class="logo" />
+    <span class="site-title">Sanctuarul Pisicilor Salvate</span>
+  </div>
+  <nav>
+    <a href="sit2pisici.html">Home</a>
+    <a href="pisicilenoastre.html".html">Pisicile Noastre</a>
+    <a href="despre.html">Despre Noi</a>
+    <a href="contact.html">Contact</a>
+    <a href="alaturare.html">Alătură-te</a>
+    <a href="#donatii" class="donate-btn" id="donateBtn">Donează</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Secțiunea ta de donații -->
+  <section id="donatii" class="donate-section">
+    <h2>Susține viața în sanctuar</h2>
+    <p class="section-intro">
+      Fiecare leu se transformă în hrană, tratamente și adăpost pentru pisicile noastre.
+    </p>
+
+    <div class="donate-grid">
+      <div class="donate-box">
+        <h3>25&nbsp;RON</h3>
+        <p>Hrănești o pisică timp de o săptămână.</p>
+      </div>
+      <div class="donate-box">
+        <h3>50&nbsp;RON</h3>
+        <p>Acoperi vaccinarea unei pisici nou-venite.</p>
+      </div>
+      <div class="donate-box">
+        <h3>100&nbsp;RON</h3>
+        <p>Susții o intervenție veterinară minoră.</p>
+      </div>
+      <div class="donate-box">
+        <h3>Altă sumă</h3>
+        <p>Contribui oricât dorești în contul:</p>
+        <p><strong>RO00&nbsp;XXXX&nbsp;0000&nbsp;0000&nbsp;0000&nbsp;0000</strong></p>
+      </div>
+    </div>
+
+    <p class="donate-note">
+      Trimite dovada plății la <em>donatii@sanctuar.ro</em> și îți mulțumim public!
+    </p>
+  </section>
+</main>
+
+<footer style="text-align:center; padding:20px; background:#fff; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:40px;">
+  &copy; 2025 Sanctuarul Pisicilor Salvate. Toate drepturile rezervate.
+</footer>
+
+</body>
+</html>

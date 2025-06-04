@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista Pisicuțe</title>
+  
+  <!-- Font pentru aspect plăcut -->
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Dela Gothic One', cursive;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    /* Bara de sus */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+    }
+
+    /* Dacă ai logo, deblochează și pune calea
+    .logo {
+      height: 50px;
+      margin-right: 10px;
+    } */
+
+    .site-title {
+      font-family: 'Dela Gothic One', cursive;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    /* Linkuri în bara de sus */
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff6f61;
+    }
+
+    /* Stil pentru secțiunea cu lista de pisicuțe */
+    .pisici-container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .pisici-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .pisica-card {
+      background: #fff;
+      border-radius: 15px;
+      width: 250px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .pisica-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .pisica-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+
+    .pisica-nume {
+      font-size: 1.2rem;
+      margin: 8px 0;
+      color: #222;
+    }
+
+    .pisica-description {
+      font-size: 1rem;
+      color: #555;
+    }
+  </style>
+</head>
+<header>
+  <div class="branding">
+    <!-- Dacă ai logo, deblochează și pune calea -->
+    <!-- <img src="imagini/cat_sanctuary_logo.png" alt="Logo Sanctuar" class="logo"> -->
+    <span class="site-title">Sanctuarul Pisicilor Salvate</span>
+  </div>
+  <nav>
+    <a href="/New%20folder/site2pisici.html">Home</a>
+    <a href="animals.html">Pisicile Noastre</a>
+    <a href="despre.html">Despre Noi</a>
+    <a href="contact.html">Contact</a>
+    <a href="alaturare.html">Alătură-te</a>
+    <a href="#donatii" class="donate-btn" id="donateBtn">Donează</a>
+  </nav>
+</header>
+
+<body>
+
+  
+  <section class="pisici-container" id="pisici">
+    <div class="pisici-grid">
+      <!-- Pisica 1 -->
+      <div class="pisica-card">
+        <img src="imagini/cat1.jpg.jpeg" alt="Pisică Luna" />
+        <div class="pisica-nume">Luna</div>
+        <div class="pisica-description">O pisică jucăușă care adoră să toarcă în brațele voluntarilor.</div>
+      </div>
+      <!-- Pisica 2 -->
+      <div class="pisica-card">
+        <img src="imagini/cat2.jpg.jpg" alt="Pisică Milo" />
+        <div class="pisica-nume">Milo</div>
+        <div class="pisica-description">Salvat din stradă, acum este un răsfățat al sanctuarului.</div>
+      </div>
+      <!-- Pisica 3 -->
+      <div class="pisica-card">
+        <img src="imagini/cat3.jpg.jpg" alt="Pisică Sasha" />
+        <div class="pisica-nume">Sasha</div>
+        <div class="pisica-description">Un suflet timid, dar blând, care și-a găsit liniștea aici.</div>
+      </div>
+      <!-- Pisica 4 -->
+      <div class="pisica-card">
+        <img src="imagini/cat4.jpg.jpg" alt="Pisică Max" />
+        <div class="pisica-nume">Max</div>
+        <div class="pisica-description">Un motan curios și jucăuș, mereu gata de aventură.</div>
+      </div>
+      <!-- Pisica 5 -->
+      <div class="pisica-card">
+        <img src="imagini/cat5.jpg" alt="Pisică Bella" />
+        <div class="pisica-nume">Bella</div>
+        <div class="pisica-description">Blândă și iubitoare, perfectă pentru o familie.</div>
+      </div>
+      <!-- Pisica 6 -->
+      <div class="pisica-card">
+        <img src="imagini/cat6.jpg" alt="Pisică Oliver" />
+        <div class="pisica-nume">Oliver</div>
+        <div class="pisica-description">Un motan cu personalitate aparte și ochi expresivi.</div>
+      </div>
+      <!-- Pisica 7 -->
+      <div class="pisica-card">
+        <img src="imagini/cat7.jpg" alt="Pisică Mimi" />
+        <div class="pisica-nume">Mimi</div>
+        <div class="pisica-description">Mică și drăgălașă, mereu dornică de joacă.</div>
+      </div>
+      <!-- Pisica 8 -->
+      <div class="pisica-card">
+        <img src="imagini/cat8,jpg.jpeg" alt="Pisică Simba" />
+        <div class="pisica-nume">Simba</div>
+        <div class="pisica-description">Curajos și loial, o adevărată vedetă.</div>
+      </div>
+      <!-- Pisica 9 -->
+      <div class="pisica-card">
+        <img src="imagini/cat9.jpg" alt="Pisică Mia" />
+        <div class="pisica-nume">Mia</div>
+        <div class="pisica-description">Calmă și dulce, o companie perfectă pentru liniște.</div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alătură-te - Sanctuarul Pisicilor Salvate</title>
+  
+  <!-- Font pentru un aspect plăcut -->
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  
+  <!-- Stiluri CSS -->
+  <style>
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff; /* culoare fundal */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky; /* pentru o bară fixă sus */
+  top: 0;
+  z-index: 999;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.site-title {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Stil pentru link-uri */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* La hover */
+nav a:hover {
+  color: #ff6f61;
+}
+
+body {
+  margin: 0;
+  font-family: 'Dela Gothic One', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Stil pentru secțiunea de alăturare */
+.donate-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fff3f3, #ffe5e5);
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.donate-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* Lista de pași sau condiții */
+.lista-pași {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.lista-pași li {
+  margin-bottom: 10px;
+}
+
+/* Stil pentru lista de bifat (checkbox) */
+.checklist {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+/* Stil pentru buton */
+.afla-mai-mult-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  font-family: 'Dela Gothic One', cursive;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+.afla-mai-mult-btn:hover {
+  background-color: #e65c50;
+  transform: translateY(-2px);
+}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="branding">
+    <img src="imagini/cat_sanctuary_logo.png" alt="Logo Sanctuar" class="logo" />
+    <span class="site-title">Sanctuarul Pisicilor Salvate</span>
+  </div>
+  <nav>
+    <a href="/New%20folder/site2pisici.html">Home</a>
+    <a href="pisicilenoastre.html">Pisicile Noastre</a>
+    <a href="despre.html">Despre Noi</a>
+    <a href="contact.html">Contact</a>
+    <a href="alaturare.html">Alătură-te</a>
+    <a href="#donatii" class="donate-btn" id="donateBtn">Donează</a>
+  </nav>
+</header>
+
+<!-- Secțiunea ta personalizată de alăturare -->
+<section id="alaturare" class="donate-section">
+  <h2>Alătură-te Comunității Noastre</h2>
+  <p class="section-intro">
+    Devino voluntar, susține proiectele noastre sau participă la campanii. Orice ajutor contează!
+  </p>
+
+  <div class="donate-grid">
+    <div class="donate-box">
+      <h3>Devino Voluntar</h3>
+      <p>Alătură-te echipei noastre și ajută la îngrijirea și promovarea pisicilor.</p>
+    </div>
+    <div class="donate-box">
+      <h3>Participă la Evenimente</h3>
+      <p>Ia parte la campanii și evenimente de conștientizare.</p>
+    </div>
+    <div class="donate-box">
+      <h3>Sprijină Proiectele</h3>
+      <p>Contribuie cu resurse sau timp pentru cauza noastră.</p>
+    </div>
+  </div>
+
+  <p class="donate-note">
+    Trimite-ne un email la <em>voluntariat@sanctuar.ro</em> pentru mai multe detalii și te vom contacta!
+  </p>
+</section>
+
+<!-- Secțiunea cu informații despre adopție -->
+<section class="donate-section" style="margin-top: 50px;">
+  <h2 style="margin-bottom: 20px;">Cum poți adopta o pisică?</h2>
+  <p style="margin-bottom: 20px;">Adoptarea unei pisici este un angajament pe termen lung. Iată pașii principali pentru a deveni părintele unei pisicuțe:</p>
+  
+  <ul class="lista-pași">
+    <li>Completează formularul de adopție și programează o vizită de evaluare.</li>
+    <li>Participă la o întâlnire cu pisicuța pentru a te asigura că aveți chimie.</li>
+    <li>Respectă condițiile de adopție și semnează contractul.</li>
+    <li>Asigură-i tot confortul și iubirea de care are nevoie.</li>
+  </ul>
+  
+  <p style="margin-bottom: 20px;">De asemenea, poți verifica lista noastră de condiții și pași de mai jos:</p>
+  
+  <!-- Lista de bifat (checkbox-uri) -->
+  <div class="checklist">
+    <label><input type="checkbox" /> Sunt de acord să ofer pisicii un cămin sigur și iubitor.</label><br>
+    <label><input type="checkbox" /> Am citit și înțeles responsabilitățile adoptării.</label><br>
+    <label><input type="checkbox" /> Sunt pregătit să ofer îngrijire și vizite veterinare periodice.</label><br>
+    <label><input type="checkbox" /> Vreau să completez formularul de adopție.</label>
+  </div>
+
+  <a href="adoptie.xml" class="afla-mai-mult-btn" style="margin-top: 30px; display: inline-block;">Aplică pentru adopție</a>
+</section>
+
+
+</body>
+</html>

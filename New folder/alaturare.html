@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alătură-te - Sanctuarul Pisicilor Salvate</title>
+  
+  <!-- Font pentru un aspect plăcut -->
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  
+  <!-- Stiluri CSS -->
+  <style>
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff; /* culoare fundal */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky; /* pentru o bară fixă sus */
+  top: 0;
+  z-index: 999;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.site-title {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Stil pentru link-uri */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* La hover */
+nav a:hover {
+  color: #ff6f61;
+}
+
+    body {
+      margin: 0;
+      font-family: 'Dela Gothic One', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    /* Stil pentru secțiunea de alăturare */
+    .donate-section {
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #fff3f3, #ffe5e5);
+      border-radius: 8px;
+      max-width: 1200px;
+      margin: 40px auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Titlu */
+    .donate-section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    /* Introducere */
+    .section-intro {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    /* Grilă pentru card-urile de promovare */
+    .donate-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    /* Card-urile de promovare */
+    .donate-box {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+    }
+
+    /* Titlurile din card-uri */
+    .donate-box h3 {
+      margin-top: 0;
+      color: #ff6f61;
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+
+    /* Paragrafe din card-uri */
+    .donate-box p {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    /* Nota de final */
+    .donate-note {
+      margin-top: 30px;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    /* Stil pentru email */
+    .donate-note em {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<header>
+  <div class="branding">
+    <img src="imagini/cat_sanctuary_logo.png" alt="Logo Sanctuar" class="logo">
+    <span class="site-title">Sanctuarul Pisicilor Salvate</span>
+  </div>
+  <nav>
+    <a href="/New%20folder/site2pisici.html">Home</a>
+    <a href="pisicilenoastre.html">Pisicile Noastre</a>
+    <a href="despre.html">Despre Noi</a>
+    <a href="contact.html">Contact</a>
+    <a href="alaturare.html">Alătură-te</a>
+    <a href="#donatii" class="donate-btn" id="donateBtn">Donează</a>
+  </nav>
+</header>
+<body>
+
+  <!-- Secțiunea ta personalizată de alăturare -->
+  <section id="alaturare" class="donate-section">
+    <h2>Alătură-te Comunității Noastre</h2>
+    <p class="section-intro">
+      Devino voluntar, susține proiectele noastre sau participă la campanii. Orice ajutor contează!
+    </p>
+
+    <div class="donate-grid">
+      <div class="donate-box">
+        <h3>Devino Voluntar</h3>
+        <p>Alătură-te echipei noastre și ajută la îngrijirea și promovarea pisicilor.</p>
+      </div>
+      <div class="donate-box">
+        <h3>Participă la Evenimente</h3>
+        <p>Ia parte la campanii și evenimente de conștientizare.</p>
+      </div>
+      <div class="donate-box">
+        <h3>Sprijină Proiectele</h3>
+        <p>Contribuie cu resurse sau timp pentru cauza noastră.</p>
+      </div>
+    </div>
+    <p class="donate-note">
+      Trimite-ne un email la <em>voluntariat@sanctuar.ro</em> pentru mai multe detalii și te vom contacta!
+    </p>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="adoptie.xsl"?>
+<adoptii>
+  <pisica>
+    <nume>Luna</nume>
+    <imagine>imagini/cat1.jpg.jpeg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Milo</nume>
+    <imagine>imagini/cat2.jpg.jpg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Sasha</nume>
+    <imagine>imagini/cat3.jpg.jpg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Max</nume>
+    <imagine>imagini/cat4.jpg.jpg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Bella</nume>
+    <imagine>imagini/cat5.jpg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Oliver</nume>
+    <imagine>imagini/cat6.jpg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Mimi</nume>
+    <imagine>imagini/cat7.jpg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Simba</nume>
+    <imagine>imagini/cat8.jpg.jpeg</imagine>
+  </pisica>
+  <pisica>
+    <nume>Mia</nume>
+    <imagine>imagini/cat9.jpg</imagine>
+  </pisica>
+</adoptii>
